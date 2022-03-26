@@ -60,7 +60,6 @@ namespace assignment {
         return root_;
     }
 
-    // вспомогательные методы
 
     void BinarySearchTree::insert(int key, int value, Node *&node) {
         if (node == nullptr) {
