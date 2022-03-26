@@ -25,6 +25,7 @@ namespace assignment {
         if (node != nullptr) {
             return node->value;
         }
+        
         return std::nullopt;
     }
 
