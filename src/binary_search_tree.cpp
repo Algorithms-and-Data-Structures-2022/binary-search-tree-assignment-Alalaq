@@ -63,7 +63,7 @@ namespace assignment {
 
     void BinarySearchTree::insert(int key, int value, Node *&node) {
         if (node == nullptr) {
-            Node *newNode = new Node();
+            Node *newNode = new Node(key, value);
             node = newNode;
             node->key = key;
         }
